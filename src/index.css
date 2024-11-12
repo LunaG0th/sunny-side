@@ -1,0 +1,102 @@
+:root {
+  /* primary  */
+  --clr-dark: #233040;
+  --clr-gray: #8e8b92;
+  --clr-white: #fffbf8;
+  
+  /* accent color  */
+  --clr-red: hsl(7, 99%, 70%);
+  --clr-green: hsl(167, 40%, 24%);
+  --clr-blue: hsl(198, 62%, 26%);
+  --clr-yellow: hsl(51, 100%, 49%);
+  --clr-light-green: hsl(168, 34%, 41%);
+
+  /* Font Sizes */
+  --size-xs: 0.75rem; /* 12px */
+  --size-sm: 0.875rem; /* 14px */
+  --size-base: 1rem; /* 16px */
+  --size-lg: 1.125rem; /* 18px */
+  --size-xl: 1.25rem; /* 20px */
+  --size-2xl: 1.5rem; /* 24px */
+  --size-3xl: 1.875rem; /* 30px */
+  --size-4xl: 2.25rem; /* 36px */
+  --size-5xl: 3rem; /* 48px */
+  --size-6xl: 3.75rem; /* 60px */
+
+  --box-shadow: 0 4px 8px rgba(44, 37, 35, 0.5);
+  --box-shadow-inset: inset 8px 8px 5px 0px rgba(66, 68, 90, 1);
+  --box-shadow-inset2: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5), inset 6px 0 14px -6px rgba(0, 0, 0, 0.5);
+  --box-shadow-inset3: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+
+  /* temp class */
+  ---: 1px dashed rgb(241, 92, 255); /* temporary border */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* color-scheme: light dark; */
+  color: var(--clr-dark);
+
+}
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Barlow", serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-variation-settings:
+  "SOFT" 0,
+  "WONK" 0;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
